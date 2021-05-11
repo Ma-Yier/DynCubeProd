@@ -7,4 +7,4 @@
 #### Run the folowwing code:
 #### ***[minf,maxf,B,dynam,b,t,f,TMY,currentP,stoplabel,rxnList]=...***
 #### ***DynCubeProd(model,model.mets(1,1),'EX_glc__D_e','EX_o2_e','BIOMASS_Ec_iJO1366_core_53p95M','GUR',10,'OUR',10,'minGrowth',0.01,'P',2)***
-#### to obtain the results of *'10-Formyltetrahydrofolate'* as target metabolites with input glucose 10, oxygen 10 and P=2.
+#### to obtain the results of *'10-Formyltetrahydrofolate'* as target metabolites with input glucose=10, oxygen=10 and P=2.
