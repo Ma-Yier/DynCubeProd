@@ -12,7 +12,7 @@
 ## How to use DynCubeProd
 #### First init COBRA toolbox and load the data set via following command:
 #### >>initCobraToolbox
-#### >>load("iJO1366.mat") %example data set
+#### >>load("iJO1366.mat") %example data set%
 #### The example data set of *E.coli* iJO1366 is in the released DynCubeProd1.0. It can also be downloaded from [BiGG database](http://bigg.ucsd.edu/models/iJO1366).
 #### After loading the data set, run the following code:
 #### >>[minf,maxf,B,dynam,b,t,f,TMY,currentP,stoplabel,rxnList]=...
