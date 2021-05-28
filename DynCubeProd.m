@@ -41,12 +41,12 @@ function [minFlux,maxFlux,B,dynam,Brange,Trange,Frange,TMY,currentP,stoplabel,rx
 %         whether it is feasible to find a solution in this sub-cube. 
 %         0 represents it is infeasible otherwise it is feasible when the 
 %         element is 1.
-% b    The position of found knockout strategy on biomass axis, the b-th
-%     interval on biomass axis.
-% t    The position of found knockout strategy on target metabolite axis,
-%     the t-th interval on target metabolite axis.
-% f    The position of found knockout strategy on sum of absolute values of
-%     toal fluxes axis, the f-th interval on this axis.
+% Brange    The position of found knockout strategy on biomass axis, the b-th
+%           interval on biomass axis.
+% Trange    The position of found knockout strategy on target metabolite axis,
+%           the t-th interval on target metabolite axis.
+% Frange    The position of found knockout strategy on sum of absolute values of
+%           toal fluxes axis, the f-th interval on this axis.
 % TMY    The theoretical maximum yield of target metabolite
 % currentP    The value of P when candidate knockout strategy is found
 % stoplabel   1 or 0. 1 means funciton ends before all cubes are computed,
